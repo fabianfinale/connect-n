@@ -36,3 +36,9 @@ npm start
 ```
 
 The app will load in the console, and you will be able to play the game. Enjoy it!
+
+## Dev Notes
+- The runtime complexity of the algorithm you use to determine if a player has won at the end of each turn is the following:
+    - Horizontal Check: O(n ^ 2)
+    - Vertical Check: O(n ^ 2)
+    - Diagonal Checks: O(n ^ 3)
